@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PARTS")(type "KiCad")(uri "/Users/ashtonmiller/Projects/pal-collar/PARTS.kicad_sym")(options "")(descr ""))
+)

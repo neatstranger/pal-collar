@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bd81ccec-70f8-4618-96f0-6c3828dc99db)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 135.89 46.99) (size 44.45 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 935f1179-ef5b-457b-bb7f-20763ef0093d)
+    (property "Sheetname" "LORA" (at 135.89 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LORA.kicad_sch" (at 135.89 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "combined"
+        (path "/bd81ccec-70f8-4618-96f0-6c3828dc99db" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 77.47 46.99) (size 38.1 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 99014008-0866-41ba-8477-804e6a10d2fe)
+    (property "Sheetname" "GPS" (at 77.47 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "GPS.kicad_sch" (at 77.47 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "combined"
+        (path "/bd81ccec-70f8-4618-96f0-6c3828dc99db" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
