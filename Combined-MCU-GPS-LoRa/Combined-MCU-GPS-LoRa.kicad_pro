@@ -487,6 +487,10 @@
     [
       "e83bb015-9272-432e-8c14-560c030fdcf8",
       "lora"
+    ],
+    [
+      "cf45bc70-1dab-4cb6-beff-5ba3fbcdd245",
+      "power"
     ]
   ],
   "text_variables": {}
