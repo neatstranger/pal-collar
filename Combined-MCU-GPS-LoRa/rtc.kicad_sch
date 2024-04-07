@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid fa5c7031-6a9f-4d99-9a71-8461a8bbcb29)
+  (uuid 752eff2a-496b-405e-b9de-c85f91fad478)
 
   (paper "A4")
 
@@ -114,6 +114,11 @@
     )
   )
 
+
+  (no_connect (at 133.35 91.44) (uuid 11b20e0f-3dd5-4a89-8d65-3b7de0ac8c4b))
+  (no_connect (at 156.21 88.9) (uuid 5a6a090b-ccb4-45fb-bc29-f7253466de8f))
+  (no_connect (at 156.21 93.98) (uuid 784201cb-7eed-4e75-afb2-4736d3a0746d))
+  (no_connect (at 133.35 83.82) (uuid cc89f1ca-6bfc-4430-878e-bcdfcf9fe9ef))
 
   (hierarchical_label "SDA" (shape input) (at 156.21 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))

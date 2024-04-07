@@ -389,7 +389,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PARTS"
+    ]
   },
   "meta": {
     "filename": "Combined-MCU-GPS-LoRa.kicad_pro",
