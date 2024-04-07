@@ -467,6 +467,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "a0175fec-7c81-4d4b-9fe1-21009e5acfd6",
+      ""
+    ],
+    [
+      "1b8bcd7b-d480-40e3-a1e1-8fde3d7c83fd",
+      "mcu"
+    ],
+    [
+      "4f948912-26aa-4814-8f55-73b5add1c17d",
+      "rtc"
+    ],
+    [
+      "45598652-a8ec-4b64-b24c-be2458908dbb",
+      "gps"
+    ],
+    [
+      "e83bb015-9272-432e-8c14-560c030fdcf8",
+      "lora"
+    ]
+  ],
   "text_variables": {}
 }
