@@ -5,6 +5,168 @@
 	(uuid "c3c9e31d-73bb-4537-b76b-13bcf52d5a82")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -163,6 +325,526 @@
 			)
 		)
 	)
+	(junction
+		(at 133.35 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ef74b4-81a2-496b-b5bb-e2099002f013")
+	)
+	(junction
+		(at 175.26 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16834c8e-1230-463d-b7a3-b2e3cc77e759")
+	)
+	(junction
+		(at 139.7 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef39686-2836-49fc-90e4-8917706e7da3")
+	)
+	(junction
+		(at 116.84 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37a8ccb0-3fad-4b46-9ea5-7ce30af594e4")
+	)
+	(junction
+		(at 204.47 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e2e5152-fb96-433a-837a-0a087bd81d48")
+	)
+	(junction
+		(at 124.46 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422662cb-3858-4c36-8031-fde2a0d040c6")
+	)
+	(junction
+		(at 116.84 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d34694-0d66-4452-919c-92c2e25199ad")
+	)
+	(junction
+		(at 82.55 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53bd6197-e88b-4753-b05e-b11f7fc446ed")
+	)
+	(junction
+		(at 185.42 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd475d3-e881-430f-a01c-0e21a8fc6cea")
+	)
+	(junction
+		(at 124.46 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6440b4ad-8de0-40d0-817b-b102a44b3e24")
+	)
+	(junction
+		(at 109.22 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c3069d-1383-445f-becb-5cfb840fa220")
+	)
+	(junction
+		(at 100.33 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5cb3f0-8304-4a80-9bdc-75957e1eb301")
+	)
+	(junction
+		(at 165.1 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "703f1aaf-3f7f-40cc-8b2a-b31892bcf21a")
+	)
+	(junction
+		(at 91.44 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76987d44-0e53-4d8a-9c26-2eaef1a55038")
+	)
+	(junction
+		(at 109.22 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96d66026-e743-453d-846c-a933bc075ed5")
+	)
+	(junction
+		(at 185.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d94e22e-a983-4b23-92e7-8ab14655a23b")
+	)
+	(junction
+		(at 82.55 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5fd9c6c-0f6a-4bd0-bdbe-51363ef1a3b3")
+	)
+	(junction
+		(at 154.94 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab37bf19-da08-46f6-8e81-da53ad12b25d")
+	)
+	(junction
+		(at 146.05 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b76eda13-1054-4871-9e33-f47b3ed15d09")
+	)
+	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0eacb6-7d47-4e9c-b497-b4ad9b343cba")
+	)
+	(junction
+		(at 194.31 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3286a07-9ddb-4d84-b7cc-f9f1b2220d29")
+	)
+	(junction
+		(at 175.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74bbb56-c169-430c-8a0b-edd40f9ea024")
+	)
+	(junction
+		(at 146.05 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f2c9b3-26c2-477d-a974-85ef33ff121f")
+	)
+	(junction
+		(at 139.7 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebca695-d3e6-4ab6-bde6-d3b900ca6ef0")
+	)
+	(junction
+		(at 91.44 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b61281-3571-4d01-ba9f-1c20ebc84754")
+	)
+	(junction
+		(at 154.94 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7a21cdd-8910-48e9-98fa-a0b6f94bd68b")
+	)
+	(junction
+		(at 194.31 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe44082-dc7d-465b-bbf2-b5f8be90f71f")
+	)
+	(junction
+		(at 100.33 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1afe1b1-94db-4724-9617-79edfdc233a6")
+	)
+	(junction
+		(at 204.47 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed923a3a-a638-4179-82c2-20c511f14834")
+	)
+	(junction
+		(at 133.35 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07bc1a9-7ff5-40c0-9849-14a6d19da01c")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 194.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0411a65d-8d44-4fe4-bbc3-f1f62b2455ec")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b60dda9-8cb0-481e-80f8-3f358bd343c4")
+	)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2023da08-51f5-46db-9c85-847a8a4a025f")
+	)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a9b8e2-157a-4e1c-8e0c-8354f9376e0c")
+	)
+	(wire
+		(pts
+			(xy 146.05 67.31) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228249c9-cd86-425a-88da-ca5c83e89b83")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e07d84-ecd8-43b4-a4c2-a4f11caff565")
+	)
+	(wire
+		(pts
+			(xy 194.31 67.31) (xy 204.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e1ca9d-f58e-4d10-b5d9-7515ed3fcd0d")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 185.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3879f226-b9c4-4126-974e-1a44084f8e1a")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39eb3bd1-25d0-4f8f-bc5c-8e29f4c1f69f")
+	)
+	(wire
+		(pts
+			(xy 82.55 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b98f929-194a-4cb2-9cec-8b98de3f38ff")
+	)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 133.35 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a8117d-7653-48a8-a02a-36802eefc75d")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 175.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5258faf3-d2ad-4c65-93a2-62f820f572d0")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6823d786-e0bd-44ea-bb33-eece2697b4eb")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695f26e3-3cf2-4cb7-b3b7-c55b8c42cb3a")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882bf3d4-e5e9-43fe-8529-0b9113b4f912")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ad4fd2-6dd6-4af1-9159-1dede1e4c47d")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89198c5b-a325-4917-ad70-b3d6db02e983")
+	)
+	(wire
+		(pts
+			(xy 133.35 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0186cd-d794-4958-b47e-607425d3baab")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 91.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94751326-55b7-4fc0-872d-398851613ce4")
+	)
+	(wire
+		(pts
+			(xy 100.33 67.31) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9646c174-de0f-481a-b639-9a2e9ef174a6")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981d7e84-523c-49f4-a6a5-4b42a81b21e6")
+	)
+	(wire
+		(pts
+			(xy 133.35 59.69) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb00c6b-5cc1-49bc-863f-d3ab1a9afb89")
+	)
+	(wire
+		(pts
+			(xy 109.22 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a916ccb2-59fb-4347-9766-6ca8ca45a486")
+	)
+	(wire
+		(pts
+			(xy 76.2 59.69) (xy 76.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05ee57b-3273-4073-a0f5-bb7fa13896a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1092c7-6014-4f3e-bda9-046cee82eccc")
+	)
+	(wire
+		(pts
+			(xy 204.47 67.31) (xy 212.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f46012-4f4a-44ca-b79c-71cd27c683a9")
+	)
+	(wire
+		(pts
+			(xy 185.42 59.69) (xy 194.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d666e7c0-1b66-4206-9fa1-806a30e5b603")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d898adf7-e2a8-4ba5-9a25-005827f3b9f8")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 165.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc973a8b-22fd-45a1-8e82-a1310ad60dd2")
+	)
+	(wire
+		(pts
+			(xy 204.47 59.69) (xy 212.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a28eac-7688-42b2-ad77-9a6f5057bad0")
+	)
+	(wire
+		(pts
+			(xy 100.33 59.69) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc20072-8228-43ac-8176-04ac66b807e7")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84232cb-82bf-4b33-af3f-b7938c53a513")
+	)
+	(wire
+		(pts
+			(xy 124.46 67.31) (xy 133.35 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f954b723-b640-4fd8-8237-c4c8d180a1ef")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe448da1-a9b5-426c-9e96-0b92eb1f9f35")
+	)
 	(symbol
 		(lib_id "Device:L")
 		(at 116.84 63.5 0)
@@ -191,7 +873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -235,7 +917,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 132.08 74.93 0)
+		(at 194.31 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -244,7 +926,7 @@
 		(fields_autoplaced yes)
 		(uuid "535a0aaa-87d8-475a-ab6c-4489757d392f")
 		(property "Reference" "CL14"
-			(at 133.35 73.6599 0)
+			(at 195.58 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +935,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 133.35 76.1999 0)
+			(at 195.58 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,8 +943,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 74.93 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +962,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 132.08 74.93 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +987,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 142.24 74.93 0)
+		(at 204.47 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -314,7 +996,7 @@
 		(fields_autoplaced yes)
 		(uuid "688dd396-2212-4d1e-9da6-7678101be0ff")
 		(property "Reference" "CL15"
-			(at 143.51 73.6599 0)
+			(at 205.74 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +1005,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 143.51 76.1999 0)
+			(at 205.74 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,8 +1013,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +1023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 74.93 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,7 +1032,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 142.24 74.93 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +1083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 133.35 63.5 0)
 			(effects
 				(font
@@ -445,7 +1127,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 91.44 64.77 0)
+		(at 91.44 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -454,7 +1136,7 @@
 		(fields_autoplaced yes)
 		(uuid "7160ff89-0592-4535-864e-97e9de184ab4")
 		(property "Reference" "CL2"
-			(at 92.71 63.4999 0)
+			(at 92.71 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,7 +1145,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 92.71 66.0399 0)
+			(at 92.71 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,8 +1153,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 64.77 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,7 +1163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 64.77 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +1172,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 91.44 64.77 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +1197,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 113.03 74.93 0)
+		(at 175.26 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -524,7 +1206,7 @@
 		(fields_autoplaced yes)
 		(uuid "7754935d-ca75-4eb5-a09f-3614c8388378")
 		(property "Reference" "CL12"
-			(at 114.3 73.6599 0)
+			(at 176.53 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +1215,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 114.3 76.1999 0)
+			(at 176.53 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,8 +1223,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +1233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 74.93 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +1242,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 113.03 74.93 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,35 +1266,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 123.19 74.93 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 71.12 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87f12d4e-e09b-4974-a92a-a068fc0e76ba")
-		(property "Reference" "CL13"
-			(at 124.46 73.6599 0)
+		(uuid "869810ac-9b02-46f2-a9fc-c92ce806a0e0")
+		(property "Reference" "J1"
+			(at 71.755 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 124.46 76.1999 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 71.755 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 74.93 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 71.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,7 +1302,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 74.93 0)
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "580556f5-1a1f-47fe-8176-7782d5d2978b")
+		)
+		(pin "2"
+			(uuid "49515ed1-9d29-4ce1-9dd8-6e2800e0f57a")
+		)
+		(instances
+			(project ""
+				(path "/c3c9e31d-73bb-4537-b76b-13bcf52d5a82"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 185.42 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f12d4e-e09b-4974-a92a-a068fc0e76ba")
+		(property "Reference" "CL13"
+			(at 186.69 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 186.69 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,7 +1381,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 123.19 74.93 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +1406,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 82.55 64.77 0)
+		(at 82.55 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -664,7 +1415,7 @@
 		(fields_autoplaced yes)
 		(uuid "8962241a-6541-452c-97e8-3689f015d511")
 		(property "Reference" "CL1"
-			(at 83.82 63.4999 0)
+			(at 83.82 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +1424,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 83.82 66.0399 0)
+			(at 83.82 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,8 +1432,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 64.77 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +1442,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 64.77 0)
+			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +1451,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 82.55 64.77 0)
+			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 100.33 64.77 0)
+		(at 100.33 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -734,7 +1485,7 @@
 		(fields_autoplaced yes)
 		(uuid "967e07e7-e433-4ae2-bf2f-a28623686cc6")
 		(property "Reference" "CL3"
-			(at 101.6 63.4999 0)
+			(at 101.6 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +1494,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 101.6 66.0399 0)
+			(at 101.6 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,8 +1502,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 64.77 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +1512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 64.77 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +1521,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 100.33 64.77 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +1572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -891,7 +1642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 139.7 63.5 0)
 			(effects
 				(font
@@ -961,7 +1712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 109.22 63.5 0)
 			(effects
 				(font
@@ -1005,7 +1756,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 92.71 74.93 0)
+		(at 154.94 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1014,7 +1765,7 @@
 		(fields_autoplaced yes)
 		(uuid "cca42174-c2a5-4bb3-a26d-98957e34980c")
 		(property "Reference" "CL10"
-			(at 93.98 73.6599 0)
+			(at 156.21 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1774,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 93.98 76.1999 0)
+			(at 156.21 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,8 +1782,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +1792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 74.93 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1801,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 92.71 74.93 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1826,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 102.87 74.93 0)
+		(at 165.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1084,7 +1835,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6598b2e-ae14-4944-932a-ddfd65f69537")
 		(property "Reference" "CL11"
-			(at 104.14 73.6599 0)
+			(at 166.37 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1844,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 104.14 76.1999 0)
+			(at 166.37 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,8 +1852,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 74.93 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 102.87 74.93 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB Coils:SMALL_COIL"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -1215,7 +1966,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 149.86 74.93 0)
+		(at 212.09 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1224,7 +1975,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec7a0e6c-1b29-492d-88bd-9cce58bf2503")
 		(property "Reference" "CL16"
-			(at 151.13 73.6599 0)
+			(at 213.36 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1984,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 151.13 76.1999 0)
+			(at 213.36 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,8 +1992,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 74.93 0)
+		(property "Footprint" "PCB Coils:SMALL_COIL"
+			(at 212.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +2002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 74.93 0)
+			(at 212.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +2011,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 149.86 74.93 0)
+			(at 212.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
